@@ -52,7 +52,7 @@ function loadList() {
 
   <main>
     <TodoItem
-      v-for="(item, index) in items"
+      v-for="(item, index) in items" :key="index"
       :item=item
       :index=index
       @up="shiftUp"

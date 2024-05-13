@@ -14,7 +14,7 @@ defineProps({
 <template>
     <div>
         <span>{{ item }}</span>
-        <button @click="$emit('up', item, index)">Up</button>
+        <button @click="$emit('up', item, index)" class="bg-green-600">Up</button>
         <button @click="$emit('down', item, index)">Down</button>
         <button @click="$emit('remove', index)">X</button>
     </div>
