@@ -47,7 +47,7 @@ function loadList() {
 
 <template>
   <header>
-    <h1>Todo</h1>
+    <h1 class="flex justify-center m-3 text-5xl font-poppins font-semibold text-green-500">Todo</h1>
   </header>
 
   <main>
